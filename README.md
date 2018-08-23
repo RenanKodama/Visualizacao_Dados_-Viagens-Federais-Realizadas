@@ -1,7 +1,7 @@
 # Universidade Técnológica Federal do Paraná
 
 # Visualizacao Dados das Viagens Federais Realizadas (2017,2016)
-# Vizualização de Dados (UTFPR)
+# Vizualização de Dados
 
     Informações Adicionais
         Base de dados utilizada: http://www.portaltransparencia.gov.br/download-de-dados/viagens
