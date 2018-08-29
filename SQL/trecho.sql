@@ -13,5 +13,3 @@ CREATE TABLE IF NOT EXISTS `visualizacao`.`trecho` (
   `numeroDiarias` VARCHAR(45) NULL DEFAULT NULL,
   `missao` VARCHAR(45) NULL DEFAULT NULL)
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8mb4
-COLLATE = utf8mb4_0900_ai_ci
