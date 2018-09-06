@@ -2,6 +2,7 @@
 LOAD DATA LOCAL INFILE '/home/clodoaldo/UTFPR/2017_20180816_Viagens/2017_Trecho.csv'
 INTO TABLE visualizacao.trecho FIELDS TERMINATED BY ';'
 ENCLOSED BY '"' LINES TERMINATED BY '\n';
+
 -- VIAGEM
 LOAD DATA LOCAL INFILE '/home/clodoaldo/UTFPR/2017_20180816_Viagens/2017_Viagem.csv'
 INTO TABLE visualizacao.Viagem FIELDS TERMINATED BY ';'
