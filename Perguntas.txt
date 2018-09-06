@@ -10,7 +10,7 @@
 
 	1- Qual orgão público realiza as viagens mais custosas por mês? 
 	2- Quais as cidade mais visitada?
-	3- Quais cargos tem as viagens mais caras? (e qual local foram)
+	3- Quais cargos tem as viagens mais caras? (e quais foram os locais?)
 	4- Quais as viagems mais longas e por qual orgão foi realizado? 
 	5- Quais orgãos tem mais viagens canceladas?
  
