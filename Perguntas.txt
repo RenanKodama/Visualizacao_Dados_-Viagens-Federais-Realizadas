@@ -13,4 +13,9 @@
 	3- Quais cargos tem as viagens mais caras? (e quais foram os locais?)
 	4- Quais as viagems mais longas e por qual orgão foi realizado? 
 	5- Quais orgãos tem mais viagens canceladas?
- 
+  
+  Informações das Tabelas:
+	Valor Médio: 445.44 (R$)
+	Antes do filtro mediano: 481.592 (tuplas)
+	Depois do filtro mediano: 131.375 (tuplas)
+   
