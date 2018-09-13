@@ -1,0 +1,1 @@
+SELECT COUNT(Trecho.idProcesso) FROM Trecho INNER JOIN idsImportantes ON Trecho.idProcesso = idsImportantes.idProcesso;

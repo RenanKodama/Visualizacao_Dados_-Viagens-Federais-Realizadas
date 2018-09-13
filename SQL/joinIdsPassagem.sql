@@ -1,0 +1,1 @@
+SELECT COUNT(Passagem.idProcesso) FROM Passagem INNER JOIN idsImportantes ON Passagem.idProcesso = idsImportantes.idProcesso;
