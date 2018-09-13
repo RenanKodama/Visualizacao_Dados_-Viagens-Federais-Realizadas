@@ -1,0 +1,1 @@
+SELECT Pagamento.idProcesso FROM Pagamento INNER JOIN idsImportantes ON Pagamento.idProcesso = idsImportantes.idProcesso;
