@@ -2,7 +2,8 @@
 
 <b2>disciplina: Visualização de Dados (UTFPR)</b2>
 
-<b3>aluno: Renan Kodama Rodrigues 1602098</b3>    
+<b3>aluno: Renan Kodama Rodrigues 1602098</b3>
+<b3>aluno: Clodoaldo </b3>
 
 -----------------------------------------------------
 
