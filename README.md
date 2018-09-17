@@ -2,7 +2,7 @@
 
 <b2>disciplina: Visualização de Dados (UTFPR)</b2>
 
-<b3>alunos: Renan Kodama Rodrigues 1602098 | Clodoaldo </b3>
+<b3>alunos: Renan Kodama Rodrigues 1602098 | Clodoaldo Basaglia da Fonseca 968692</b3>
 
 -----------------------------------------------------
 
