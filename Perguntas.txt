@@ -18,4 +18,11 @@
 	Valor Médio: 445.44 (R$)
 	Antes do filtro mediano: 481.592 (tuplas)
 	Depois do filtro mediano: 131.375 (tuplas)
-   
+ 
+ *As tabelas foram filtradas para apresentar somente as viagens que estão acima da média
+  
+
+  Visualizações:
+	.Tabela Viagens
+		nomeOrgaoSolicitante = Orgãos que realizam mais viagens;
+		
