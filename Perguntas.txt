@@ -8,11 +8,19 @@
 
   Questões para análise:
 
-	1- Qual orgão público realiza as viagens mais custosas? 
-	2- Quais as cidade mais visitada?
-	3- Quais cargos tem as viagens mais caras? (e quais foram os locais?)
+	1- Qual orgão público realiza as viagens mais custosas(média da média)? 
+		r: Tabela_Pagamentos. Colunas X:nome do orgão Y:Valor
+		
+	2- Quais as cidade mais visitada por orgão?
+		r: 
+		
 	4- Quais as viagems mais longas e por qual orgão foi realizado? 
-	5- Quais orgãos tem mais viagens canceladas?
+		
+	5- Quais orgãos tem mais viagens canceladas?y
+		r: Tabela_Passagem. Colunas X:situação Y:
+	
+	6- Quais são os orgãos publicos que realizam mais viagens?
+		r: Tabela_Passagem. Coluna X:nome do orgão 
   
   Informações das Tabelas:
 	Valor Médio: 445.44 (R$)
