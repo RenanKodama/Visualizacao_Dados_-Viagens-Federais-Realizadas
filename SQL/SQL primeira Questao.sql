@@ -1,0 +1,1 @@
+select nomeOrgaoSuperior,SUM(valor) as resultado FROM Pagamento  GROUP BY codigoOrgaoSuperior ORDER BY resultado DESC;
