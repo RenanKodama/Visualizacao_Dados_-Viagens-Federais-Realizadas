@@ -1,5 +1,5 @@
 # Library
-setwd("~/UTFPR/Visualizacao_Dados_Viagens-Federais-Realizadas/R")
+setwd("~/UTFPR2018/Visualização de Dados/Visualizacao_Dados_Viagens-Federais-Realizadas/R")
 # Library
 library(streamgraph)
 
@@ -11,4 +11,4 @@ data=data.frame(year, name, value)
 
 # Stream graph with a legend
 streamgraph(data, key="name", value="value", date="year" )
-  #sg_legend(show=TRUE, label="names: ")
+  sg_legend(show=TRUE, label="names: ")
