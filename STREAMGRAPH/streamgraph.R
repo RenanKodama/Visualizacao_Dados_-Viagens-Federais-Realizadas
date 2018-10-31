@@ -1,7 +1,8 @@
 # Library
-setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+#setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+setwd("~/UTFPR/VisualizacaoDados/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
 # Library
-library(streamgraph)
+#library(streamgraph)
 mes1= read.csv("MES_1.csv",header = TRUE)
 mes2= read.csv("MES_2.csv",header = TRUE)
 mes3= read.csv("MES_3.csv",header = TRUE)
@@ -15,18 +16,29 @@ mes10= read.csv("MES_10.csv",header = TRUE)
 mes11= read.csv("MES_11.csv",header = TRUE)
 mes12= read.csv("MES_12.csv",header = TRUE)
 #LABELS
-nomeOrgaoSuperior <- mes1[,c(1)]
+nomeOrgaoSuperior <- c(as.character(mes1[,c(1)]),as.character(mes2[,c(1)]),
+                       as.character(mes3[,c(1)]),as.character(mes4[,c(1)]),
+                       as.character(mes5[,c(1)]),as.character(mes6[,c(1)]),
+                       as.character(mes7[,c(1)]),as.character(mes8[,c(1)]),
+                       as.character(mes9[,c(1)]),as.character(mes10[,c(1)]),
+                       as.character(mes11[,c(1)]),as.character(mes12[,c(1)]))
 nomeOrgaoSuperior
 # Create data:
 meses <- 1:12;
-nomes <- c()
-valores <-c(3884895,168338,165484,114235,65968,63215,41936,36522,30391,22114)
+valores <-c(as.character(mes1[,c(2)]),as.character(mes2[,c(2)]),
+            as.character(mes3[,c(2)]),as.character(mes4[,c(2)]),
+            as.character(mes5[,c(2)]),as.character(mes6[,c(2)]),
+            as.character(mes7[,c(2)]),as.character(mes8[,c(2)]),
+            as.character(mes9[,c(2)]),as.character(mes10[,c(2)]),
+            as.character(mes11[,c(2)]),as.character(mes12[,c(2)]))
+valores
 
 #year=rep(seq(1990,2016) , each=10)
 #name=rep(letters[1:10] , 27)
 #value=sample( seq(0,1,0.0001) , length(year))
-data=data.frame(meses, nomes, valores)
+data=data.frame(meses, nomeOrgaoSuperior, valores)
+data
 
 # Stream graph with a legend
-streamgraph(data, key="name", value="value", date="year" )
+#streamgraph(data, key="name", value="value", date="year" )
   #sg_legend(show=TRUE, label="names: ")
