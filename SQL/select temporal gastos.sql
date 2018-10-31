@@ -1,1 +1,1 @@
-SELECT nomeOrgaoSuperior,SUM(valorDiarias) as resultado FROM visualizacao.Viagem where MONTH(periodoDataInicio)=7 GROUP BY codigoOrgaoSuperior ORDER BY resultado DESC;
+SELECT nomeOrgaoSuperior,SUM(valorDiarias) as resultado FROM visualizacao.Viagem where MONTH(periodoDataInicio)=12 GROUP BY codigoOrgaoSuperior ORDER BY resultado DESC;
