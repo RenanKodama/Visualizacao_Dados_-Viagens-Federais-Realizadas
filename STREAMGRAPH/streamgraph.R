@@ -1,20 +1,41 @@
-# Library
+
+#INCLUDE LIBRARY
+library(streamgraph)
+
+
+#SET WORKSPACES
 #setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
-setwd("~/UTFPR/VisualizacaoDados/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
-# Library
-#library(streamgraph)
-mes1= read.csv("MES_1.csv",header = TRUE)
-mes2= read.csv("MES_2.csv",header = TRUE)
-mes3= read.csv("MES_3.csv",header = TRUE)
-mes4= read.csv("MES_4.csv",header = TRUE)
-mes5= read.csv("MES_5.csv",header = TRUE)
-mes6= read.csv("MES_6.csv",header = TRUE)
-mes7= read.csv("MES_7.csv",header = TRUE)
-mes8= read.csv("MES_8.csv",header = TRUE)
-mes9= read.csv("MES_9.csv",header = TRUE)
-mes10= read.csv("MES_10.csv",header = TRUE)
-mes11= read.csv("MES_11.csv",header = TRUE)
-mes12= read.csv("MES_12.csv",header = TRUE)
+#setwd("~/UTFPR/VisualizacaoDados/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+setwd("C:/Users/renan/Desktop/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+
+#LOAD FILES
+mes1= read.csv("MES_1.csv",header = TRUE);
+mes2= read.csv("MES_2.csv",header = TRUE);
+mes3= read.csv("MES_3.csv",header = TRUE);
+mes4= read.csv("MES_4.csv",header = TRUE);
+mes5= read.csv("MES_5.csv",header = TRUE);
+mes6= read.csv("MES_6.csv",header = TRUE);
+mes7= read.csv("MES_7.csv",header = TRUE);
+mes8= read.csv("MES_8.csv",header = TRUE);
+mes9= read.csv("MES_9.csv",header = TRUE);
+mes10= read.csv("MES_10.csv",header = TRUE);
+mes11= read.csv("MES_11.csv",header = TRUE);
+mes12= read.csv("MES_12.csv",header = TRUE);
+
+
+#TEMPORAL
+#meses <- (1:120);
+meses <- rep(1:12, each=10)
+
+
+#VALUES
+valores <-c(as.numeric(mes1[,c(2)]),as.numeric(mes2[,c(2)]),
+            as.numeric(mes3[,c(2)]),as.numeric(mes4[,c(2)]),
+            as.numeric(mes5[,c(2)]),as.numeric(mes6[,c(2)]),
+            as.numeric(mes7[,c(2)]),as.numeric(mes8[,c(2)]),
+            as.numeric(mes9[,c(2)]),as.numeric(mes10[,c(2)]),
+            as.numeric(mes11[,c(2)]),as.numeric(mes12[,c(2)]))
+
 #LABELS
 nomeOrgaoSuperior <- c(as.character(mes1[,c(1)]),as.character(mes2[,c(1)]),
                        as.character(mes3[,c(1)]),as.character(mes4[,c(1)]),
@@ -22,23 +43,10 @@ nomeOrgaoSuperior <- c(as.character(mes1[,c(1)]),as.character(mes2[,c(1)]),
                        as.character(mes7[,c(1)]),as.character(mes8[,c(1)]),
                        as.character(mes9[,c(1)]),as.character(mes10[,c(1)]),
                        as.character(mes11[,c(1)]),as.character(mes12[,c(1)]))
-nomeOrgaoSuperior
-# Create data:
-meses <- 1:12;
-valores <-c(as.character(mes1[,c(2)]),as.character(mes2[,c(2)]),
-            as.character(mes3[,c(2)]),as.character(mes4[,c(2)]),
-            as.character(mes5[,c(2)]),as.character(mes6[,c(2)]),
-            as.character(mes7[,c(2)]),as.character(mes8[,c(2)]),
-            as.character(mes9[,c(2)]),as.character(mes10[,c(2)]),
-            as.character(mes11[,c(2)]),as.character(mes12[,c(2)]))
-valores
 
-#year=rep(seq(1990,2016) , each=10)
-#name=rep(letters[1:10] , 27)
-#value=sample( seq(0,1,0.0001) , length(year))
-data=data.frame(meses, nomeOrgaoSuperior, valores)
-data
+data <- data.frame(meses, nomeOrgaoSuperior, valores)
 
 # Stream graph with a legend
-streamgraph(data, key="name", value="value", date="year" )
-  sg_legend(show=TRUE, label="names: ")
+streamgraph(data, key="nomeOrgaoSuperior", value="valores", date="meses", scale = "continuous")
+   
+        
