@@ -40,5 +40,5 @@ data=data.frame(meses, nomeOrgaoSuperior, valores)
 data
 
 # Stream graph with a legend
-#streamgraph(data, key="name", value="value", date="year" )
-  #sg_legend(show=TRUE, label="names: ")
+streamgraph(data, key="name", value="value", date="year" )
+  sg_legend(show=TRUE, label="names: ")

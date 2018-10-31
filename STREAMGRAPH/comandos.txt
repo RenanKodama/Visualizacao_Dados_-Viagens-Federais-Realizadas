@@ -1,0 +1,7 @@
+Instalar antes de instalar devtools no R
+
+apt-get -y build-dep libcurl4-gnutls-dev
+apt-get -y install libcurl4-gnutls-dev
+
+Depois é só mandar
+devtools::install_github("hrbrmstr/streamgraph")
