@@ -1,0 +1,32 @@
+# Library
+setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+# Library
+library(streamgraph)
+mes1= read.csv("MES_1.csv",header = TRUE)
+mes2= read.csv("MES_2.csv",header = TRUE)
+mes3= read.csv("MES_3.csv",header = TRUE)
+mes4= read.csv("MES_4.csv",header = TRUE)
+mes5= read.csv("MES_5.csv",header = TRUE)
+mes6= read.csv("MES_6.csv",header = TRUE)
+mes7= read.csv("MES_7.csv",header = TRUE)
+mes8= read.csv("MES_8.csv",header = TRUE)
+mes9= read.csv("MES_9.csv",header = TRUE)
+mes10= read.csv("MES_10.csv",header = TRUE)
+mes11= read.csv("MES_11.csv",header = TRUE)
+mes12= read.csv("MES_12.csv",header = TRUE)
+#LABELS
+nomeOrgaoSuperior <- mes1[,c(1)]
+nomeOrgaoSuperior
+# Create data:
+meses <- 1:12;
+nomes <- c()
+valores <-c(3884895,168338,165484,114235,65968,63215,41936,36522,30391,22114)
+
+#year=rep(seq(1990,2016) , each=10)
+#name=rep(letters[1:10] , 27)
+#value=sample( seq(0,1,0.0001) , length(year))
+data=data.frame(meses, nomes, valores)
+
+# Stream graph with a legend
+streamgraph(data, key="name", value="value", date="year" )
+  #sg_legend(show=TRUE, label="names: ")
