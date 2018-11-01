@@ -27,3 +27,7 @@
         Base de dados utilizada: http://www.portaltransparencia.gov.br/download-de-dados/viagens
     Orgão Fornecedor: Portal da Transparência
 
+
+<h3>Links uteis</h3>
+Word Cloud
+https://www.jasondavies.com/wordcloud/

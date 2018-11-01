@@ -4,9 +4,9 @@ library(streamgraph)
 
 
 #SET WORKSPACES
-#setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+setwd("~/UTF/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
 #setwd("~/UTFPR/VisualizacaoDados/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
-setwd("C:/Users/renan/Desktop/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
+#setwd("C:/Users/renan/Desktop/Visualizacao_Dados_Viagens-Federais-Realizadas/STREAMGRAPH")
 
 #LOAD FILES
 mes1= read.csv("MES_1.csv",header = TRUE);
