@@ -1,0 +1,5 @@
+paises que não foram incluidos
+French guiana com 10
+Hong kong 11
+
+https://app.datawrapper.de/map/llWvy/basemap
