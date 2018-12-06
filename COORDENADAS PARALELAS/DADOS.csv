@@ -1,0 +1,11 @@
+﻿cidadeOrigemIda,ufOrigemIda,paisOrigemIda,paisDestinoIda,ufDestinoIda,cidadeDestinoIda,COUNT(cidadeDestinoIda)
+Brasília,Distrito Federal,Brasil,Argentina,Provincia de buenos aires,Buenos Aires,239
+Belo Horizonte,Minas Gerais,Brasil,Portugal,Distrito de Lisboa ,Lisboa,146
+Mumbai,Maharashtra,Índia,França, Île-de-France ,Paris,139
+Brasília,Distrito Federal,Brasil,Estados Unidos da América,Washington,Washington,113
+Brasília,Distrito Federal,Brasil,Suíça,Genebra,Genebra,95
+Brasília,Distrito Federal,Brasil,Reino Unido,Grande Londres,Londres,88
+Belo Horizonte,Minas Gerais,Brasil,Uruguai,Montevidéu,Montevidéu,80
+Brasília,Distrito Federal,Brasil,Bélgica,Flandres,Bruxelas,78
+Brasília,Distrito Federal,Brasil,Espanha,Comunidade de Madrid ,Madri,69
+Rio de Janeiro,Rio de Janeiro,Brasil,Peru,Lima,Lima,67
